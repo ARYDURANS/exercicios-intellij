@@ -16,7 +16,7 @@ public class Triangulo {
             System.out.println(" triangulo equilatero");
         }else {
 
-            if (a == b && b !=c ){
+            if ( (a == b  && b !=c) || (a == c  && b != c) || (b == c  && a != c)  ){
                 System.out.println(" triangulo isoceles");
 
             }else if (a != b && b != c){
@@ -25,5 +25,5 @@ public class Triangulo {
 
                 }
             }
-            }
+          }
         }
